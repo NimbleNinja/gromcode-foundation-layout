@@ -1,0 +1,14 @@
+{
+  "name": "gromcode-foundation-layout",
+  "version": "1.0.0",
+  "description": "first layout",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Oleg Zaporozhets",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.49.7"
+  }
+}

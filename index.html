@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -18,6 +18,203 @@
     <title>Foundation</title>
   </head>
   <body>
-    <h1 class="title">Foundation layout</h1>
+    <div class="main-page">
+      <section class="headline">
+        <header class="headline__header header">
+          <div class="header__logo logo">
+            <img
+              class="logo__icon"
+              src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/icon.png"
+              alt="foundation logo"
+            />
+            <div class="logo__info">
+              <h4 class="logo__title">Foundation</h4>
+              <p class="logo__description">Startup landing template</p>
+            </div>
+          </div>
+          <nav class="header__menu">
+            <a class="header__menu-item" href="#">Home</a>
+            <a class="header__menu-item" href="#">Stories</a>
+            <a class="header__menu-item" href="#">Library</a>
+          </nav>
+          <button class="header__btn btn">Get Started</button>
+          <div class="header__burger">
+            <div class="burger">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+        </header>
+        <div class="container">
+          <h1 class="headline__title">Build stunning websites & apps.</h1>
+          <div class="headline__description">
+            <p>
+              Create live segments and target the right people for messages based on their
+              behaviors.
+            </p>
+          </div>
+          <div class="headline__buttons">
+            <button class="btn">Get Started</button>
+            <button class="btn btn_white">Learn More</button>
+          </div>
+        </div>
+      </section>
+      <section class="about">
+        <div class="about__container container">
+          <div class="about__item item">
+            <h3 class="item__title">What is it about?</h3>
+            <div class="item__text">
+              <p>
+                Building a website for a startup that looks amazing is not a rocket science anymore.
+              </p>
+            </div>
+          </div>
+          <div class="about__item item">
+            <h3 class="item__title">Who is it for?</h3>
+            <div class="item__text">
+              <p>Startups, small companies and teams, entrepreneurs and web developers.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="customers">
+        <div class="customers__container">
+          <div class="customers__item">
+            <img
+              class="customers__img"
+              src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/logo-nyt.png"
+              alt="NewYork"
+            />
+          </div>
+          <div class="customers__item">
+            <img
+              class="customers__img"
+              src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/logo-forbes.png"
+              alt="Forbes"
+            />
+          </div>
+          <div class="customers__item">
+            <img
+              class="customers__img"
+              src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/logo-apple.png"
+              alt="Apple"
+            />
+          </div>
+          <div class="customers__item">
+            <img
+              class="customers__img"
+              src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/logo-mashable.png"
+              alt="Mashable"
+            />
+          </div>
+          <div class="customers__item">
+            <img
+              class="customers__img"
+              src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/logo-wsj.png"
+              alt="WSJ"
+            />
+          </div>
+          <div class="customers__item">
+            <img
+              class="customers__img"
+              src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/logo-google.png"
+              alt="Google"
+            />
+          </div>
+        </div>
+      </section>
+      <section class="audience">
+        <div class="container">
+          <h3 class="audience__sub-title h3-title">Engage Visitors</h3>
+          <h2 class="audience__title h2-title">Understand your audience</h2>
+          <div class="audience__description description-text">
+            <p>
+              Early stage company? Eligible applicants get all of our products for just $49 a month.
+            </p>
+          </div>
+          <div class="audience__buttons">
+            <button class="audience__btn btn">Get Started</button>
+            <button class="audience__btn btn btn_white">Learn More</button>
+          </div>
+          <div class="audience__categories categories">
+            <div class="categories__item">
+              <div class="categories__img">
+                <img
+                  src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/user-1.png"
+                  alt="Developers"
+                />
+              </div>
+              <div class="categories__name">Developers</div>
+            </div>
+            <div class="categories__item">
+              <div class="categories__img">
+                <img
+                  src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/user-2.png"
+                  alt="Entertainment"
+                />
+              </div>
+              <div class="categories__name">Entertainment</div>
+            </div>
+            <div class="categories__item">
+              <div class="categories__img">
+                <img
+                  src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/user-3.png"
+                  alt="Athletes"
+                />
+              </div>
+              <div class="categories__name">Athletes</div>
+            </div>
+            <div class="categories__item">
+              <div class="categories__img">
+                <img
+                  src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/user-4.png"
+                  alt="Creators"
+                />
+              </div>
+              <div class="categories__name">Creators</div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="inbox">
+        <figure class="inbox__ouch ouch">
+          <img
+            class="ouch__img"
+            src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/wheel.png"
+            alt="Wheel"
+          />
+          <figcaption class="ouch__descriptin">Connect with customers and grow faster</figcaption>
+        </figure>
+        <div class="inbox__body">
+          <div class="inbox__content">
+            <h3 class="inbox__sub-title h3-title">Team Inbox</h3>
+            <h2 class="inbox__title h2-title">Manage conversations</h2>
+            <p class="inbox__description description-text">
+              One place to manage and respond to all conversations with leads and users. Receive
+              messages from leads.
+            </p>
+          </div>
+          <div class="inbox__comment">
+            <p class="inbox__comment-text">
+              “Great widgets. Great selection. Great design and <span>easy to implement</span>.
+              Definitely a huge time saver for a web developer!”
+            </p>
+            <div class="inbox__user user">
+              <img
+                class="user__photo"
+                src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/user-avatar.png"
+                alt=""
+              />
+              <p class="user__info">
+                Viella Malkovich<br />
+                <span>Creative Director at Johnson</span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer class="footer"></footer>
+    </div>
   </body>
 </html>

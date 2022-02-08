@@ -1,0 +1,41 @@
+.customers {
+  background: #fff;
+  padding: 30px 0px 106px 0px;
+
+  @include md($large-md) {
+    background: #e3e3e3;
+    padding: 0;
+  }
+
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1140px;
+    margin: 0px auto;
+
+    @include md($large-md) {
+      flex-wrap: wrap;
+    }
+  }
+
+  &__item {
+    display: flex;
+    align-items: center;
+    background: #fff;
+
+    @include md($large-md) {
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 1px;
+      padding: 0 15px;
+      height: 94px;
+      width: calc(100% / 3 - 2px / 3);
+    }
+  }
+
+  // .customers__img
+
+  &__img {
+    max-width: 100%;
+  }
+}

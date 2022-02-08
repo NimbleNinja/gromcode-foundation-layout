@@ -1,0 +1,73 @@
+.btn {
+  background: #3040c4;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05),
+    inset 0px 1px 0px rgba(255, 255, 255, 0.1);
+  border-radius: 2px;
+  outline: none;
+  border: none;
+  padding: 17px 28px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 13px;
+  color: #ffffff;
+
+  &_white {
+    color: #3040c4;
+    background: #ffffff;
+  }
+
+  @include md($large-md) {
+    flex: 1 1 100%;
+  }
+}
+
+.logo {
+  display: flex;
+
+  &__icon {
+    margin-right: 9px;
+  }
+
+  &__info {
+    font-size: 20px;
+    line-height: 25px;
+    color: $main-text-color;
+  }
+
+  &__title {
+    font-weight: 700;
+  }
+
+  @include md($large-md) {
+    &__icon {
+      width: 52px;
+      height: 48px;
+    }
+
+    &__info {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    &__description {
+      display: none;
+    }
+  }
+}
+
+.burger {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 18px;
+  height: 13px;
+
+  & span {
+    display: block;
+    width: 100%;
+    height: 2.17px;
+    background: #2c3241;
+    opacity: 0.6;
+  }
+}

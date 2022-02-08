@@ -1,0 +1,64 @@
+.header {
+  display: flex;
+
+  &__logo {
+    margin-top: 2px;
+  }
+
+  &__menu {
+    margin: 7px 56px 0px auto;
+    display: flex;
+  }
+
+  &__menu-item {
+    display: block;
+    margin-right: 50px;
+    font-size: 18px;
+    line-height: 25px;
+    color: $main-text-color;
+    text-decoration: none;
+
+    &:hover {
+      font-weight: 700;
+    }
+
+    &:last-child {
+      margin-right: 0px;
+      padding-right: 19px;
+      background: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/arrow.png)
+        no-repeat right top 10px;
+    }
+  }
+
+  &__btn {
+    align-self: flex-start;
+  }
+
+  &__burger {
+    display: none;
+  }
+
+  @include md($large-md) {
+    background: #fff;
+
+    &__logo {
+      margin: 8px 0px 8px 15px;
+    }
+
+    &__menu {
+      display: none;
+    }
+
+    &__btn {
+      display: none;
+    }
+
+    &__burger {
+      margin-left: auto;
+      padding: 0 20px;
+      display: flex;
+      align-items: center;
+      border-left: 1px solid rgba(0, 0, 0, 0.15);
+    }
+  }
+}

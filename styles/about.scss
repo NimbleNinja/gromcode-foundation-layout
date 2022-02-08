@@ -1,0 +1,24 @@
+.about {
+  background: #f4f5f7;
+  padding: 76px 0px;
+
+  &__container {
+    display: flex;
+    flex-direction: row;
+    gap: 29px;
+
+    @include md($large-md) {
+      flex-direction: column;
+      gap: 20px;
+    }
+  }
+}
+
+.item {
+  font-size: 22px;
+  line-height: 32px;
+
+  &__title {
+    font-weight: 700;
+  }
+}

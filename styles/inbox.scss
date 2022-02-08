@@ -1,0 +1,115 @@
+.inbox {
+  background: #fcf0e3;
+  display: flex;
+  align-items: center;
+  padding: 115px 15px 101px 15px;
+
+  @include md($large-md) {
+    flex-direction: column;
+    padding: 50px 15px 48px 15px;
+  }
+
+  &__ouch {
+    margin: 27px 164px 0px 193px;
+
+    @include md($large-md) {
+      margin: 0px 0px 32px 0px;
+    }
+  }
+
+  &__body {
+    max-width: 519px;
+  }
+
+  &__content {
+    padding: 0 30px;
+
+    @include md($large-md) {
+      padding: 0;
+    }
+  }
+
+  &__sub-title {
+    color: #f1592b;
+    margin-bottom: 24px;
+
+    @include md($large-md) {
+      margin-bottom: 17px;
+    }
+  }
+
+  &__title {
+    margin-bottom: 30px;
+
+    @include md($large-md) {
+      margin-bottom: 18px;
+    }
+  }
+
+  &__description {
+    margin-bottom: 44px;
+
+    @include md($large-md) {
+      margin-bottom: 30px;
+    }
+  }
+
+  &__comment {
+    background: #fff;
+    padding: 30px 30px 28px 30px;
+    border-bottom: 4px solid #0185d0;
+
+    @include md($large-md) {
+      padding: 30px 20px 30px 20px;
+    }
+  }
+
+  &__comment-text {
+    font-size: 20px;
+    line-height: 28px;
+    margin-bottom: 26px;
+
+    & span {
+      font-weight: 700;
+    }
+  }
+}
+
+.ouch {
+  &__img {
+    margin-bottom: 15px;
+    max-width: 100%;
+  }
+
+  &__descriptin {
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    opacity: 0.6;
+
+    @include md($large-md) {
+      display: none;
+    }
+  }
+}
+
+.user {
+  display: flex;
+
+  &__photo {
+    width: 40px;
+    height: 40px;
+    margin-right: 11px;
+  }
+
+  &__info {
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 700;
+
+    & span {
+      opacity: 0.6;
+      font-weight: normal;
+    }
+  }
+}

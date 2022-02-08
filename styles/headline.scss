@@ -1,0 +1,61 @@
+.headline {
+  background: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/ouch.png)
+      left calc(50% + 276px) top 185px / 796px auto no-repeat,
+    #f3c6bd;
+  padding: 39px 0px 126px 0px;
+
+  &__header {
+    max-width: 1140px;
+    margin: 0px auto 81px;
+
+    @include md($large-md) {
+      margin-bottom: 35px;
+    }
+  }
+
+  &__title {
+    max-width: 754px;
+    margin-bottom: 34px;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 78px;
+    letter-spacing: -0.5px;
+  }
+
+  &__description {
+    max-width: 456px;
+    margin-bottom: 58px;
+    font-size: 24px;
+    line-height: 34px;
+  }
+
+  &__buttons {
+    display: flex;
+    gap: 10px;
+  }
+
+  @include md($large-md) {
+    padding: 0px 0px 0px 0px;
+    padding-bottom: calc(56.5% + 69px);
+    background: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/ouch.png)
+        left bottom 36px / 100% auto no-repeat,
+      #f3c6bd;
+
+    &__title {
+      font-size: 50px;
+      line-height: 50px;
+      letter-spacing: -0.3125px;
+      margin-bottom: 24px;
+    }
+
+    &__description {
+      margin-bottom: 30px;
+    }
+
+    &__buttons {
+      flex-direction: row;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+  }
+}

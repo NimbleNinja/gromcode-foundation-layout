@@ -1,0 +1,84 @@
+.feedback {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 0px 15px 68px 15px;
+  border-bottom: 1px solid rgba($color: #000, $alpha: 0.1);
+
+  @include md($large-md) {
+    text-align: left;
+    padding: 39px 15px 51px 15px;
+  }
+
+  &__title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    color: #3142c6;
+    margin-bottom: 28px;
+
+    @include md($large-md) {
+      margin-bottom: 29px;
+    }
+  }
+
+  &__description {
+    margin-bottom: 34px;
+    max-width: 750px;
+
+    @include md($large-md) {
+      margin-bottom: 32px;
+    }
+  }
+
+  &__author {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 38px;
+
+    @include md($large-md) {
+      margin-bottom: 40px;
+      align-self: start;
+    }
+
+    & span {
+      font-weight: normal;
+      opacity: 0.6;
+    }
+  }
+
+  &__dots {
+    display: flex;
+    gap: 13px;
+
+    @include md($large-md) {
+      margin-bottom: 40px;
+    }
+
+    & span {
+      height: 8px;
+      width: 8px;
+      border-radius: 50%;
+      background: #2b292d;
+      opacity: 0.2;
+    }
+
+    & span.active {
+      background: #3142c5;
+      opacity: 1;
+    }
+  }
+
+  &__img {
+    max-width: 100%;
+    position: absolute;
+    right: 26px;
+    bottom: 0;
+
+    @include md($large-md) {
+      position: static;
+    }
+  }
+}

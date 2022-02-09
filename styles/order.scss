@@ -1,0 +1,93 @@
+.order {
+  display: flex;
+  align-items: center;
+  background: #f4f5f7;
+  padding: 73px 228px 72px 224px;
+
+  @include md($large-md) {
+    flex-direction: column;
+    gap: 40px;
+    padding: 50px 15px;
+  }
+
+  &__ouch {
+    max-width: 100%;
+    margin-right: 121px;
+
+    @include md($large-md) {
+      margin-right: 0px;
+    }
+  }
+
+  &__body {
+  }
+
+  &__title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 40px;
+    letter-spacing: -0.25px;
+    margin-bottom: 12px;
+
+    @include md($large-md) {
+      text-align: center;
+      margin-bottom: 18px;
+    }
+  }
+
+  &__subscription {
+    font-size: 22px;
+    line-height: 32px;
+    margin-bottom: 26px;
+
+    @include md($large-md) {
+      margin-bottom: 40px;
+    }
+  }
+
+  &__form {
+    margin-bottom: 10px;
+  }
+
+  &__info {
+    font-size: 14px;
+    line-height: 22px;
+
+    & span {
+      opacity: 0.6;
+    }
+  }
+
+  &__link {
+    color: #3142c6;
+    opacity: 1;
+  }
+}
+.form {
+  display: flex;
+  gap: 10px;
+
+  @include md($large-md) {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  &__email {
+    outline: none;
+    height: 48px;
+    width: 385px;
+    border: 1px solid rgba(43, 41, 45, 0.2);
+    border-radius: 2px;
+    font-size: 18px;
+    line-height: 13px;
+    padding: 0 15px;
+
+    @include md($large-md) {
+      width: auto;
+      text-align: center;
+    }
+  }
+
+  &__btn {
+  }
+}

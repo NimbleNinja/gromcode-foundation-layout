@@ -1,0 +1,90 @@
+.communicate {
+  background: #fff;
+  padding: 110px 0px;
+
+  @include md($large-md) {
+    padding: 50px 0px;
+  }
+
+  &__first-row {
+    display: flex;
+    margin-bottom: 68px;
+
+    @include md($large-md) {
+      flex-direction: column;
+      align-items: center;
+      gap: 40px;
+      margin-bottom: 74px;
+    }
+  }
+
+  &__body {
+    max-width: 463px;
+    margin-right: 193px;
+
+    @include md($large-md) {
+      flex: 1 1 auto;
+      margin: 0;
+    }
+  }
+
+  &__sub-title {
+    color: #0189d1;
+    margin-bottom: 24px;
+
+    @include md($large-md) {
+      margin-bottom: 17px;
+    }
+  }
+
+  &__title {
+    margin-bottom: 30px;
+
+    @include md($large-md) {
+      margin-bottom: 18px;
+    }
+  }
+
+  &__description {
+    margin-bottom: 39px;
+
+    @include md($large-md) {
+      margin-bottom: 30px;
+    }
+  }
+
+  &__btn {
+  }
+
+  &__ouch {
+  }
+
+  &__second-row {
+    display: flex;
+    gap: 30px;
+
+    @include md($large-md) {
+      flex-direction: column;
+      gap: 32px;
+    }
+  }
+
+  &__item {
+    font-size: 18px;
+    line-height: 26px;
+
+    & p {
+      display: inline-block;
+      margin-bottom: 6px;
+    }
+
+    & span {
+      font-weight: 700;
+    }
+  }
+
+  &__link {
+    font-weight: 700;
+    color: #3040c4;
+  }
+}

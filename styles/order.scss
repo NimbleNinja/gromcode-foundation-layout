@@ -11,12 +11,12 @@
   }
 
   &__body {
-    padding-top: 33px;
+    //padding-top: 33px;
   }
 
   &__ouch {
     max-width: 100%;
-    margin-right: 121px;
+    margin-right: 120px;
 
     @include md($large-md) {
       margin-right: 0px;

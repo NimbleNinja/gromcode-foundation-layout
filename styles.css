@@ -67,7 +67,7 @@
 .main-page {
   max-width: 1400px;
   margin: 0px auto;
-  background: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/ouch.png") no-repeat top 185px right 25px, #f3c6bd;
+  background: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/ouch.png") no-repeat top 185px right 25px/796px 448px, #f3c6bd;
   padding-top: 39px;
 }
 @media screen and (max-width: 1400px) {
@@ -133,10 +133,19 @@
 
 .header {
   max-width: 1140px;
+  height: 62px;
   margin: 0px auto;
   margin-bottom: 76px;
   display: flex;
   align-items: center;
+}
+@media screen and (max-width: 1400px) {
+  .header {
+    height: 64px;
+  }
+}
+.header__logo {
+  margin-left: 15px;
 }
 .header__menu {
   margin: 0px 56px 0px auto;
@@ -871,12 +880,9 @@
     padding: 50px 15px;
   }
 }
-.order__body {
-  padding-top: 33px;
-}
 .order__ouch {
   max-width: 100%;
-  margin-right: 121px;
+  margin-right: 120px;
 }
 @media screen and (max-width: 1400px) {
   .order__ouch {

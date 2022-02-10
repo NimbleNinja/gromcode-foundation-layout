@@ -1,12 +1,17 @@
 .header {
   max-width: 1140px;
+  height: 62px;
   margin: 0px auto;
   margin-bottom: 76px;
   display: flex;
   align-items: center;
 
+  @include md($large-md) {
+    height: 64px;
+  }
+
   &__logo {
-    //margin-top: 2px;
+    margin-left: 15px;
   }
 
   &__menu {

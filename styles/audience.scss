@@ -45,7 +45,7 @@
     @include md($large-md) {
       flex-direction: row;
       flex-wrap: wrap;
-
+      gap: 12px;
       margin-bottom: 40px;
     }
   }

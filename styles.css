@@ -881,13 +881,16 @@
   }
 }
 .order__ouch {
-  max-width: 269px;
+  max-width: 100%;
   margin-right: 120px;
 }
 @media screen and (max-width: 1400px) {
   .order__ouch {
     margin-right: 0px;
   }
+}
+.order__body {
+  margin-left: auto;
 }
 .order__title {
   font-weight: 700;

@@ -23,9 +23,12 @@
 
 .logo {
   display: flex;
+  align-items: center;
 
   &__icon {
-    margin-right: 9px;
+    margin-right: 15px;
+    height: 60px;
+    width: 60px;
   }
 
   &__info {
@@ -45,8 +48,9 @@
 
   @include md($large-md) {
     &__icon {
-      width: 52px;
+      width: 48px;
       height: 48px;
+      margin-right: 13px;
     }
 
     &__info {
@@ -63,16 +67,11 @@
 
 .burger {
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  width: 18px;
-  height: 13px;
+  height: 64px;
+  width: 59px;
+  border-left: 1px solid rgba(0, 0, 0, 0.15);
 
-  & span {
-    display: block;
-    width: 100%;
-    height: 2.17px;
-    background: #2c3241;
-    opacity: 0.6;
+  & img {
+    margin: auto;
   }
 }

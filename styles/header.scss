@@ -1,12 +1,16 @@
 .header {
+  max-width: 1140px;
+  margin: 0px auto;
+  margin-bottom: 76px;
   display: flex;
+  align-items: center;
 
   &__logo {
-    margin-top: 2px;
+    //margin-top: 2px;
   }
 
   &__menu {
-    margin: 7px 56px 0px auto;
+    margin: 0px 56px 0px auto;
     display: flex;
   }
 
@@ -18,7 +22,7 @@
     color: $main-text-color;
     text-decoration: none;
 
-    &:hover {
+    &:first-child {
       font-weight: 700;
     }
 
@@ -31,7 +35,7 @@
   }
 
   &__btn {
-    align-self: flex-start;
+    //align-self: flex-start;
   }
 
   &__burger {
@@ -40,6 +44,7 @@
 
   @include md($large-md) {
     background: #fff;
+    margin-bottom: 54px;
 
     &__logo {
       margin: 8px 0px 8px 15px;

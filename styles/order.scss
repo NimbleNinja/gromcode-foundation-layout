@@ -19,9 +19,6 @@
     }
   }
 
-  &__body {
-  }
-
   &__title {
     font-weight: 700;
     font-size: 40px;
@@ -81,13 +78,10 @@
     font-size: 18px;
     line-height: 13px;
     padding: 0 15px;
+    text-align: center;
 
     @include md($large-md) {
       width: auto;
-      text-align: center;
     }
-  }
-
-  &__btn {
   }
 }

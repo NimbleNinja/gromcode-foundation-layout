@@ -2,7 +2,8 @@
   background: url('https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/hidden-ouch.png')
       no-repeat left top 258px,
     url('https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/invision-screen.png')
-      no-repeat left 100% top;
+      no-repeat left 100% top,
+    #fff;
   padding-bottom: 103px;
 
   @include md($large-md) {

@@ -881,7 +881,7 @@
   }
 }
 .order__ouch {
-  max-width: 100%;
+  max-width: 269px;
   margin-right: 120px;
 }
 @media screen and (max-width: 1400px) {
@@ -903,6 +903,7 @@
   }
 }
 .order__subscription {
+  max-width: 500px;
   font-size: 22px;
   line-height: 32px;
   margin-bottom: 26px;

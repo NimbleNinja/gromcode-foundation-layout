@@ -1,4 +1,5 @@
 .order {
+  //max-width: ;
   display: flex;
   align-items: center;
   background: #f4f5f7;
@@ -15,7 +16,7 @@
   }
 
   &__ouch {
-    max-width: 100%;
+    max-width: 269px;
     margin-right: 120px;
 
     @include md($large-md) {
@@ -37,6 +38,7 @@
   }
 
   &__subscription {
+    max-width: 500px;
     font-size: 22px;
     line-height: 32px;
     margin-bottom: 26px;

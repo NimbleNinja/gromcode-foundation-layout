@@ -616,6 +616,7 @@
 }
 .categories__item {
   width: 262px;
+  height: 300px;
   background: #fff;
   border-radius: 8px;
   display: flex;
@@ -869,6 +870,9 @@
     gap: 40px;
     padding: 50px 15px;
   }
+}
+.order__body {
+  padding-top: 33px;
 }
 .order__ouch {
   max-width: 100%;

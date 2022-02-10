@@ -1,5 +1,5 @@
 .inbox {
-  background: #fcf0e3;
+  background: rgba($color: #fcf0e3, $alpha: 0.4);
   display: flex;
   align-items: center;
   padding: 115px 15px 101px 15px;
@@ -56,6 +56,8 @@
 
   &__comment {
     background: #fff;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05),
+      inset 0px 1px 0px rgba(255, 255, 255, 0.1);
     padding: 30px 30px 28px 30px;
     border-bottom: 4px solid #0185d0;
 

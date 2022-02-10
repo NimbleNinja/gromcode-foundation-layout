@@ -1,0 +1,47 @@
+.mobile {
+  padding: 8px 0px 10px 0px;
+  display: none;
+
+  @include md($large-md) {
+    display: block;
+  }
+
+  &__item {
+    padding: 0 15px;
+    padding-top: 40px;
+    margin-bottom: 40px;
+  }
+
+  &__sub-title {
+    color: #009b4d;
+    margin-bottom: 17px;
+  }
+
+  &__title {
+    margin-bottom: 15px;
+  }
+
+  &__description {
+    margin-bottom: 30px;
+  }
+
+  &__img {
+    & img {
+      max-width: 100%;
+      margin-bottom: 20px;
+    }
+  }
+
+  &__img-label {
+    text-align: center;
+    font-size: 14px;
+    line-height: 22px;
+    opacity: 0.6;
+  }
+}
+
+.mobile-line {
+  border: none;
+  height: 1px;
+  background: #e3e3e3;
+}

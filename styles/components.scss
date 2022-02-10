@@ -38,6 +38,11 @@
     font-weight: 700;
   }
 
+  &__description {
+    font-size: 18px;
+    opacity: 0.6;
+  }
+
   @include md($large-md) {
     &__icon {
       width: 52px;

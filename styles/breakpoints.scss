@@ -1,1 +1,7 @@
 $large-md: 1400px;
+
+@mixin md($max-width) {
+  @media screen and (max-width: $max-width) {
+    @content;
+  }
+}
